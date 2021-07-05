@@ -1,0 +1,164 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.top-header-section {
+    background-image: url(/img/top-banner.png);
+    background-repeat: no-repeat;
+    height: 85vh;
+    background-size: 50%;
+
+}
+/* .dddddd {
+    background: url(/img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+} */
+
+.container {
+    display: flex;
+    padding-left: 10%;
+
+}
+.container2 {
+    display: flex;
+    padding-left: 10%;
+
+}
+.container3 {
+    display: flex;
+    padding-left: 10%;
+
+}
+
+.width-half {
+  width: 50%;
+
+}
+
+.width-half img {
+    width: 70%;
+}
+
+.width-half p {
+    width: 90%
+}
+
+.width-half .link1 {
+    text-decoration : none;
+    background: rgb(145, 255, 0);
+    border-radius: 10px;
+    padding: 10px 20px;
+
+}
+
+.drem-section {
+    background: url(/img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 85vh;
+
+}
+
+.mar{
+    margin-top: 50px;
+}
+.mar p {
+    width: 80%;
+}
+
+
+/* experience section */
+
+
+.experience-section {
+    background: url(/img/exp-bg.png);
+    background-repeat: no-repeat;
+    height: 85vh;
+
+}
+
+.experience-section h1 {
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    color:rgba(128, 103, 22, 0.973)
+    
+    
+}
+
+.h1-afterEf::after {
+	content: "";
+	display: block;
+	height: 4px;
+	background: rgba(235, 156, 38, 0.548);
+	width: 335px;
+	margin: auto;
+	margin-top: 5px;
+}
+
+h3{
+    color: orange 
+}
+.expeience-item {
+
+
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 2px 4px 20px black;
+    text-align:justify;
+    padding-left: 20px;
+    /* boder img ..........*/
+   border: 40px solid;
+   border-image: url(/img/border.png) 10% round ;
+
+
+    
+}
+
+.expeience-item p {
+    font-size: 15px;
+}
+
+
+.footer-section p {
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 100px;
+}
+
+/*   
+ 
+
+/* border slice............
+border-left: 10px solid;
+border-image: linear-gradient(red ,yellow);
+border-image-slice: 1;
+
+
+
+#borderimg1 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 50 round;
+  }
+  
+  #borderimg2 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 20% round;
+  }
+  
+  #borderimg3 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30% round;
+  }
+   */

@@ -1,0 +1,102 @@
+/* 1200px */
+
+@media only screen and (max-width: 1200px) {
+
+
+
+
+    
+
+
+
+
+}
+
+
+/* 1024px */
+
+@media only screen and (min-width: 1024px){
+   
+
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+  
+}
+
+
+/* 980px */
+
+@media only screen and (max-width: 980px) {
+  
+}
+
+
+
+
+
+/* 768px */
+@media only screen and (max-width: 768px) {
+  
+}
+
+
+
+/* 480px */
+
+@media only screen and (max-width: 480px) {
+   
+  .container {
+      
+      display:flex;
+      flex-direction:column-reverse;
+  }
+  .width-half img {  
+      width: 100%;
+      height: 100%;
+     
+ }
+
+  h1 {
+      font-size: 25px;
+      margin:0;
+      padding:0;
+      display: inline;
+  }
+  
+  .width-half p {
+    width: 350px;
+    text-align: center;
+}
+
+
+
+.container2 {
+    display:block;
+}
+.container3 {
+      
+    display:block;
+    
+}
+
+.expeience-item {
+
+
+    width: 40%;
+   margin: 5% 5%;
+    box-shadow: 2px 4px 20px black;
+    text-align:justify;
+    padding-left: 20px;
+    /* boder img ..........*/
+   border: 40px solid;
+   border-image: url(/img/border.png) 10% round ;
+
+
+    
+}
+}
